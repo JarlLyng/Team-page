@@ -9,6 +9,16 @@
   align-content: flex-start;
 }
 
+nav {
+  min-height: 72px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .profile-box {
   background: #FFFFFF;
   box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
@@ -23,6 +33,28 @@ img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+#logo {
+  width: 127px;
+  height: 100%;
+  border-radius: 0%;
+  background-color: white;
+  margin-right: 32px;
+}
+
+#searchField {
+  width: 100%;
+  background: rgba(245,247,250,0.20);
+  border: 1px solid #F5F7FA;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+::placeholder {
+  color: #98A0A6;
+  font-style: italic;
+  font-weight: 300;
 }
 
 h3 {
